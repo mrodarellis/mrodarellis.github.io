@@ -29,6 +29,13 @@
             width: 100%;
             bottom: 0;
         }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -37,9 +44,15 @@
     </header>
     <main>
         <p>Αυτή είναι μια απλή ιστοσελίδα φτιαγμένη με HTML και CSS.</p>
+        <button onclick="showMessage()">Πατήστε με!</button>
     </main>
     <footer>
         <p>© 2025 Η Ιστοσελίδα Μου</p>
     </footer>
+    <script>
+        function showMessage() {
+            alert("Γεια σας! Ευχαριστώ που πατήσατε το κουμπί.");
+        }
+    </script>
 </body>
 </html>
